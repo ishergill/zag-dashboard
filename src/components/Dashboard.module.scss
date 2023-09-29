@@ -1,0 +1,207 @@
+// Dashboard.module.scss
+// Global styles for the layout
+.layoutWrapper {
+  min-height: 100vh;
+}
+
+// Hamburger Menu styles
+.companyLogo {
+  height: 47px;
+  background: white;
+  margin: 16px;
+  background-image: url("../../public/assets/logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.layoutWrapper2 {
+  background-color: #f0f2f5;
+}
+
+.mainContent {
+  padding: 2rem;
+  font-family: Manrope, sans-serif;
+
+  // Orders section styles
+  .ordersHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    padding: 2rem;
+
+    .ordersHeading {
+      font-weight: bold;
+      font-size: 20px;
+      font-family: Manrope, sans-serif;
+      font-style: normal;
+      color: black;
+    }
+
+    .addButton {
+      background: #1B59F8;
+      color: white;
+      width: 128px;
+      height: 40px;
+      border: none;
+      border-radius: 0.8rem;
+      padding: 8px 12px;
+      font-weight: bold;
+      font-family: Manrope, sans-serif;
+      font-style: normal;
+      cursor: pointer;
+    }
+  }
+
+  // Separator line styles
+  .ordersSeparator {
+    border-bottom: 1px solid rgb(227, 224, 224);
+    margin-bottom: 24px;
+  }
+
+  // Cards section styles
+  .cardSection {
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    margin-bottom: 24px;
+
+    .cardSectionHeading {
+      font-size: 18px;
+      font-weight: bold;
+      font-family: Manrope, sans-serif;
+      font-style: normal;
+      color: #333;
+      margin-bottom: 16px;
+    }
+
+    // Circles with percentages styles
+    .circularProgressSection {
+      display: flex;
+      justify-content: space-between;
+
+      .circularProgress {
+        text-align: center;
+
+        .progressLabel {
+          margin-top: 8px;
+          color: #888;
+        }
+      }
+    }
+  }
+
+  // Status Overview section styles
+  .progressBarSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .progressBar {
+      width: 100%;
+
+      .progressBarLabel {
+        margin-bottom: 8px;
+        color: #888;
+      }
+    }
+  }
+
+  // Active Members section styles
+  .customerDetails {
+    margin-top: 24px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 1.5rem;
+    padding: 24px;
+    color: #B5B7C0;
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+
+      .activeMembersHeading {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        color: green;
+        position: relative;
+        left: 0.8rem;
+      }
+
+      .searchBar {
+        display: flex;
+        align-items: center;
+
+        .searchInput {
+          margin-right: 16px;
+        }
+      }
+    }
+  }
+
+  // Pagination styles
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    color: #888;
+
+    .data{
+      position: relative;
+      left: 0.8rem;
+    }
+  }
+}
+
+// Mobile responsiveness
+@media screen and (max-width: 767px) {
+  .mainContent {
+    padding: 1rem;
+
+    .ordersHeader {
+      flex-direction: column;
+
+      .addButton {
+        margin-top: 1rem;
+      }
+    }
+
+    .cardSection {
+      border-radius: 1rem;
+    }
+
+    .circularProgressSection {
+      flex-direction: column;
+      align-items: center;
+
+      .circularProgress {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .progressBarSection {
+      .progressBar {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .customerDetails {
+      border-radius: 1rem;
+
+      .navbar {
+        flex-direction: column;
+
+        .activeMembersHeading {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}

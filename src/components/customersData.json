@@ -1,0 +1,203 @@
+[
+    {
+      "name": "John Cooper",
+      "company": "Microsoft",
+      "phone": "1234567890",
+      "email": "john.cooper@microsoft.com",
+      "country": "United States",
+      "status": "active"
+    },
+    {
+      "name": "Emily Smith",
+      "company": "Apple",
+      "phone": "9876543210",
+      "email": "emily.smith@apple.com",
+      "country": "United States",
+      "status": "active"
+    },
+    {
+      "name": "Michael Johnson",
+      "company": "Google",
+      "phone": "5647382910",
+      "email": "michael.johnson@google.com",
+      "country": "United States",
+      "status": "inactive"
+    },
+    {
+      "name": "Sophia Williams",
+      "company": "Facebook",
+      "phone": "1029384756",
+      "email": "sophia.williams@facebook.com",
+      "country": "United States",
+      "status": "active"
+    },
+    {
+      "name": "David Lee",
+      "company": "Amazon",
+      "phone": "7539518642",
+      "email": "david.lee@amazon.com",
+      "country": "United States",
+      "status": "inactive"
+    },
+    {
+      "name": "Emma Johnson",
+      "company": "Netflix",
+      "phone": "2468135790",
+      "email": "emma.johnson@netflix.com",
+      "country": "United States",
+      "status": "active"
+    },
+    {
+      "name": "James Brown",
+      "company": "Tesla",
+      "phone": "1928374650",
+      "email": "james.brown@tesla.com",
+      "country": "United States",
+      "status": "inactive"
+    },
+    {
+      "name": "Olivia Davis",
+      "company": "Twitter",
+      "phone": "6758493021",
+      "email": "olivia.davis@twitter.com",
+      "country": "United States",
+      "status": "active"
+    },
+    {
+      "name": "William Martinez",
+      "company": "Intel",
+      "phone": "1534267890",
+      "email": "william.martinez@intel.com",
+      "country": "United States",
+      "status": "active"
+    },
+    {
+      "name": "Ava Rodriguez",
+      "company": "IBM",
+      "phone": "7985642310",
+      "email": "ava.rodriguez@ibm.com",
+      "country": "United States",
+      "status": "inactive"
+    },
+    {
+      "name": "Alexander Hernandez",
+      "company": "Adobe",
+      "phone": "5364987210",
+      "email": "alexander.hernandez@adobe.com",
+      "country": "United States",
+      "status": "active"
+    },
+    {
+      "name": "Mia Wilson",
+      "company": "Oracle",
+      "phone": "4209367581",
+      "email": "mia.wilson@oracle.com",
+      "country": "United States",
+      "status": "active"
+    },
+    {
+      "name": "Ethan Lewis",
+      "company": "Samsung",
+      "phone": "8273645190",
+      "email": "ethan.lewis@samsung.com",
+      "country": "United States",
+      "status": "inactive"
+    },
+    {
+      "name": "Isabella Hall",
+      "company": "Sony",
+      "phone": "8162739450",
+      "email": "isabella.hall@sony.com",
+      "country": "United States",
+      "status": "active"
+    },
+    {
+      "name": "Michael Johnson",
+      "company": "LG",
+      "phone": "9384756102",
+      "email": "michael.johnson@lg.com",
+      "country": "United States",
+      "status": "active"
+    },
+    {
+      "name": "Charlotte Taylor",
+      "company": "Panasonic",
+      "phone": "2938475061",
+      "email": "charlotte.taylor@panasonic.com",
+      "country": "United States",
+      "status": "inactive"
+    },
+    {
+      "name": "Liam Green",
+      "company": "Microsoft",
+      "phone": "1837492056",
+      "email": "liam.green@microsoft.com",
+      "country": "United States",
+      "status": "active"
+    },
+    {
+      "name": "Amelia Adams",
+      "company": "Apple",
+      "phone": "7482910563",
+      "email": "amelia.adams@apple.com",
+      "country": "United States",
+      "status": "active"
+    },
+    {
+      "name": "Lucas Perez",
+      "company": "Google",
+      "phone": "1234509876",
+      "email": "lucas.perez@google.com",
+      "country": "United States",
+      "status": "inactive"
+    },
+    {
+      "name": "Oliver Mitchell",
+      "company": "Facebook",
+      "phone": "0987654321",
+      "email": "oliver.mitchell@facebook.com",
+      "country": "United States",
+      "status": "active"
+    },
+    {
+      "name": "Emily Baker",
+      "company": "Amazon",
+      "phone": "7654321098",
+      "email": "emily.baker@amazon.com",
+      "country": "United States",
+      "status": "inactive"
+    },
+    {
+      "name": "Logan Wright",
+      "company": "Netflix",
+      "phone": "1987654320",
+      "email": "logan.wright@netflix.com",
+      "country": "United States",
+      "status": "active"
+    },
+    {
+      "name": "Sophia Garcia",
+      "company": "Tesla",
+      "phone": "6789054321",
+      "email": "sophia.garcia@tesla.com",
+      "country": "United States",
+      "status": "active"
+    },
+    {
+      "name": "Mia Scott",
+      "company": "Twitter",
+      "phone": "1987654302",
+      "email": "mia.scott@twitter.com",
+      "country": "United States",
+      "status": "inactive"
+    },
+    {
+      "name": "Michael Williams",
+      "company": "Intel",
+      "phone": "8901234765",
+      "email": "michael.williams@intel.com",
+      "country": "United States",
+      "status": "active"
+    }
+  ]
+  
